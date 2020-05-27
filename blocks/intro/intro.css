@@ -12,29 +12,29 @@
 
 @media screen and (min-width: 1280px) {
     .intro {
-        width: 53.90625vw;
-        margin: 7.1875vw 34.53125vw 7.1875vw 11.5625vw;
+        width: calc(690/1280*100vw);
+        margin: calc(92/1280*100vw) calc(442/1280*100vw) calc(92/1280*100vw) calc(148/1280*100vw);
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .intro {
-        width: 67.38281vw;
-        margin: 8.984375vw 27.92969vw 8.984375vw 4.6875vw;
+        width: calc(690/1024*100vw);
+        margin: calc(92/1024*100vw) calc(286/1024*100vw) calc(92/1024*100vw) calc(48/1024*100vw);
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .intro {
-        width: 93.75vw;
-        margin: 11.4583vw auto;
+        width: calc(720/768*100vw);
+        margin: calc(88/768*100vw) auto;
     }
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
     .intro {
         width: 91.875vw;
-        margin: 15.729vw auto;
+        margin: 15.73vw auto;
     }
 }
 

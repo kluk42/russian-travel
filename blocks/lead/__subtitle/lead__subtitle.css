@@ -2,29 +2,27 @@
     margin:0 auto 64px;
     color: white;
     font-size: 30px;
-    line-height: 1.2;
+    line-height: calc(36/30);
     font-weight: normal;
     text-align: center;
+    width: 640px;
 }
 
 @media screen and (min-width: 1280px) {
     .lead__subtitle {
-        margin: 0 auto 5vw;
-        width: 50%;
+        margin: 0 auto calc(64/1280*100vw);
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .lead__subtitle {
-        margin: 0 auto 5.46875vw;
-        width: 62.5%;
+        margin: 0 auto calc(56/1024*100vw);
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .lead__subtitle {
-        margin: 0 auto 7.2917vw;
-        width: 83.3333%;
+        margin: 0 auto calc(56/768*100vw);
     }
 }
 
@@ -42,7 +40,7 @@
     .lead__subtitle {
         margin: 0 auto 12.5vw;
         font-size: 20px;
-        line-height: 1.25;
-        width: 90%;
+        line-height: calc(20/16);
+        width: calc(288/320*100%);
     }
 }

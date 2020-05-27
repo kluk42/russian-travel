@@ -8,7 +8,7 @@
 
 @media screen and (min-width: 1280px) {
     .gallery {
-        grid-template-columns: repeat(auto-fit, 22.1875vw);
+        grid-template-columns: repeat(auto-fit, calc(284/1280*100vw));
         width: 92.5vw;
         grid-gap: 1.25vw;
         margin-bottom: 7.1875vw;
@@ -17,7 +17,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .gallery {
-        grid-template-columns: repeat(auto-fit, 29.296875vw);
+        grid-template-columns: repeat(auto-fit, calc(300/1024*100vw));
         width: 90.625vw;
         grid-gap: 1.36719vw;
         margin-bottom: 8.984vw;
@@ -26,7 +26,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .gallery {
-        grid-template-columns: repeat(auto-fit, 45.8333vw);
+        grid-template-columns: repeat(auto-fit, calc(352/768*100vw));
         width: 93.75vw;
         grid-gap: 2.0833vw;
         margin-bottom: 11.458333vw;
@@ -35,16 +35,16 @@
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
     .gallery {
-        grid-template-columns: repeat(auto-fit, 80vw);
+        grid-template-columns: repeat(auto-fit, 91vw);
         width: 91vw;
         grid-gap: 3.4vw;
-        margin-bottom: 18vw;
+        margin: 0 auto 18vw
     }
 }
 
 @media screen and (max-width: 424px) {
     .gallery {
-        grid-template-columns: repeat(auto-fit, 90vw);
+        grid-template-columns: repeat(auto-fit, calc(288/320*100vw));
         width: 90vw;
         grid-gap: 3.75vw;
         margin-bottom: 20vw;

@@ -4,7 +4,7 @@
 
 @media screen and (min-width: 1280px) {
     .gallery__item {
-        width: 22.1875vw;
+        width: calc(284/1280*100vw);
     }
 }
 
