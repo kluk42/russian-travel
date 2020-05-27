@@ -1,0 +1,17 @@
+.place__description-paragraph {
+    margin: 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .place__description-paragraph {
+        font-size: 18px;
+        line-height: 1.67;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__description-paragraph {
+        font-size: 16px;
+        line-height: calc(26/16);
+    }
+}

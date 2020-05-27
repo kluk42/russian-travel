@@ -1,0 +1,9 @@
+.footer__link_pos {
+    margin-right: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__link_pos {
+        justify-self: start;
+    }
+}

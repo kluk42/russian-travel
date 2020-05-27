@@ -1,0 +1,33 @@
+.gallery__item {
+    
+}
+
+@media screen and (min-width: 1280px) {
+    .gallery__item {
+        width: 22.1875vw;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .gallery__item {
+        width: 29.2969vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .gallery__item {
+        width: 45.8333vw;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .gallery__item {
+        width: 91vw;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .gallery__item {
+        width: 90vw;
+    }
+}

@@ -1,0 +1,17 @@
+.footer__links-list {
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0
+}
+
+@media screen and (max-width: 767px) {
+    .footer__links-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(auto-fit, 1fr);
+        gap: calc(32/320*100vw);
+        margin-bottom: calc(32/320*100vw);
+    }
+}

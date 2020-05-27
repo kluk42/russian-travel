@@ -1,0 +1,31 @@
+.place__image {}
+
+@media screen and (min-width: 1280px) {
+    .place__image {
+        width: calc(460/1280*100vw);
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .place__image {
+        width: calc(440/1024*100vw);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .place__image {
+        width: calc(340/768*100vw);
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .place__image {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .place__image {
+        width: 100vw;
+    }
+}

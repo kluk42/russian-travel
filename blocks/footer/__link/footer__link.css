@@ -1,0 +1,11 @@
+.footer__link {
+    margin-right: calc(18/1280*100vw);
+    color: white;
+    text-decoration: none;
+    margin:0;
+    transition: opacity .5s cubic-bezier(.27,.64,.81,.75);
+}
+
+.footer__link:hover {
+    opacity: .5;
+}
