@@ -10,8 +10,8 @@
     .footer__links-list {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(auto-fit, 1fr);
         gap: calc(32/320*100vw);
         margin-bottom: calc(32/320*100vw);
+        width: 100%;
     }
 }

@@ -3,17 +3,19 @@
 @import url(./__properties-list/intro__properties-list.css);
 @import url(./__property/intro__property.css);
 @import url(./__property/_normal/intro__property_normal.css);
+@import url(./__property-amount/intro__property-amount.css);
 
 .intro {
     color: white;
     display: flex;
     flex-direction: column;
+    max-width: 690px;
 }
 
 @media screen and (min-width: 1280px) {
     .intro {
-        width: calc(690/1280*100vw);
-        margin: calc(92/1280*100vw) calc(442/1280*100vw) calc(92/1280*100vw) calc(148/1280*100vw);
+        width: 690px;
+        margin:92px 442px 92px 148px;
     }
 }
 

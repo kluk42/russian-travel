@@ -6,24 +6,24 @@
 
 @media screen and (min-width: 1280px) {
     .places {
-        width: calc((984/1280*100)*1vw);
-        margin: 0 auto calc((92/1280*100)*1vw);
-        gap: calc(80/1280*100vw);
+        width: 984px;
+        margin: 0 auto 92px;
+        gap: 80px;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .places {
-        width: calc((928/1024*100)*1vw);
-        margin: 0 auto calc((92/1024*100)*1vw);
+        width: calc(928/1024*100vw);
+        margin: 0 auto calc(92/1024*100vw);
         gap: calc(80/1024*100vw);
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .places {
-        width: calc((720/768*100)*1vw);
-        margin: 0 auto calc((88/768*100)*1vw);
+        width: calc(720/768*100vw);
+        margin: 0 auto calc(88/768*100vw);
         gap: calc(72/768*100vw);
     }
 }
@@ -31,7 +31,7 @@
 @media screen and (min-width: 425px) and (max-width: 767px) {
     .places {
         width: calc(400/425*100vw);
-        margin: 0 auto calc((70/425*100)*1vw);
+        margin: 0 auto calc(70/425*100vw);
         gap: calc(56/425*100vw);
     }
 }
@@ -39,7 +39,7 @@
 @media screen and (max-width: 424px) {
     .places {
         width: 100vw;
-        margin: 0 auto calc((64/320*100)*1vw);
+        margin: 0 auto calc(64/320*100vw);
         gap: calc(48/320*100vw);
     }
 }

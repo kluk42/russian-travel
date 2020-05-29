@@ -6,12 +6,7 @@
     justify-self: center;
     align-self: center;
     margin: 28px auto 0;
-}
-
-@media screen and (min-width: 1280px) {
-    .header {
-        width: calc(1184/1280*100vw);
-    }
+    width: 1184px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -33,7 +28,7 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 424px) {
+@media screen and (max-width: 424px) {
     .header {
         width: calc(288/320*100vw);
         margin: calc(16/320*100vw) auto 0;

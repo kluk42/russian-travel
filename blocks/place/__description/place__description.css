@@ -2,13 +2,8 @@
     align-self: start;
     display: grid;
     grid-template-rows: max-content;
-}
-
-@media screen and (min-width: 1280px) {
-    .place__description {
-        width: calc(484/1280*100vw);
-        grid-row-gap: calc(24/1280*100vw);
-    }
+    width: 484px;
+    gap: 24px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {

@@ -5,6 +5,7 @@
     font-weight: 900;
     align-self: start;
     justify-self: start;
+    max-width: 460px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -25,5 +26,6 @@
     .place__name {
         font-size: 32px;
         line-height: calc(35/32);
+        margin: 0 auto;
     }
 }

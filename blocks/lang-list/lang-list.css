@@ -1,5 +1,5 @@
 @import url(./__link/lang-list__link.css);
-@import url(./__link/_ru/lang-list__link_ru.css);
+@import url(./__link/_underline/lang-list__link_underline.css);
 
 .lang-list {
     align-self: flex-end;
