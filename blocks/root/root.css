@@ -1,4 +1,4 @@
-/* {
+* {
  
   outline-width: 1px;
  
@@ -6,11 +6,11 @@
  
   outline-color: green;
  
-}*/
+}
 
 .root {
     font-family: 'Inter', ‘Arial’, sans-serif;
     background-color: #2A2C2F;
     margin: 0 auto;
-    
+    max-width: 1280px;
   }
