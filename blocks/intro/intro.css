@@ -2,7 +2,6 @@
 @import url(./__text/intro__text.css);
 @import url(./__properties-list/intro__properties-list.css);
 @import url(./__property/intro__property.css);
-@import url(./__property/_normal/intro__property_normal.css);
 @import url(./__property-amount/intro__property-amount.css);
 
 .intro {
