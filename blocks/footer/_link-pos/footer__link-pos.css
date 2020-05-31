@@ -1,9 +1,9 @@
-.footer__link_pos {
+.footer__link-pos {
     margin-right: 18px;
 }
 
 @media screen and (max-width: 768px) {
-    .footer__link_pos {
+    .footer__link-pos {
         justify-self: start;
     }
 }
