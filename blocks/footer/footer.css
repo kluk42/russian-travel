@@ -2,7 +2,7 @@
 @import url(./__links/footer__links.css);
 @import url(./__link/footer__link.css);
 @import url(./__author/footer__author.css);
-@import url(./_link-pos/footer__link-pos.css);
+@import url(./__link-pos/footer__link-pos.css);
 
 .footer {
     display: flex;
